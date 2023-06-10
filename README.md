@@ -26,7 +26,7 @@ MPM yarn based cloth simulation
 
 - 在 Blender 2.93 目录(也就是blender.exe所在的目录)下创建路径
   - work_dir2/frames
-- 钉固顶点：编辑曲线并选中要钉固的顶点(如果没有钉固顶点，需要创建一个浮空的顶点并选中它)
+- 钉固顶点：编辑曲线并选中要钉固的顶点(如果没有钉固顶点，需要创建一个浮空的顶点并选中它，因为传递给 taichi 类的张量不能为空（原谅我暂时没有找到更好的解决办法orz），注意不要选中所有的顶点，这样就不能动了。)
 - 球体/地面碰撞：在GridCollision中修改球体的位置和半径或地面高度
 - 运行：切换到UnitTest_AEPMEM,点击运行
 - 运行完成后导入动画：点击 load Animation 按钮 (动画在运行的过程中会写到 work_dir2/frames 下，点击此按钮后保存)
