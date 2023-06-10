@@ -18,7 +18,7 @@ MPM yarn based cloth simulation
 
 创建yarn based cloth：
 
-- 针织：创建物体->细分->create Stitch for Obj (如果面的index是按顺序的，可以在物体上直接转换，如果面的index是乱序的，可以在编辑模式下转换每一个面)
+- 针织：创建物体->细分->create Stitch for Obj (如果面的index是按顺序的，可以在物体上直接转换，如果面的index是乱序的，可以在编辑模式下转换每一个面)（这里是根据Yuksel等人的Stitch Mesh实现的）
 - 编织：创建物体->细分->wove face
 - 导入：交互界面的load BCC file 按钮。
 
