@@ -12,7 +12,7 @@ MPM yarn based cloth simulation
 
 运行方法：
 
-- 用 Blender2.93 打开 YarnSound.bend（主要的模拟程序是 UnitTest_AEPMPM.py (由于改文件名会发生错误，所以我没有改QAQ）,其他的一些比较次要的工具代码是嵌入在blender中的文本）；
+- 用 Blender2.93 打开 MPM_YarnBasedClothSim.blend（主要的模拟程序是 UnitTest_AEPMPM.py (由于改文件名会发生错误，所以我没有改QAQ）,其他的一些比较次要的工具代码是嵌入在blender中的文本）；
 - 安装 taichi-Blend 插件；
 - 切换到 MyPanel 文本并运行（此时视图中出现交互界面）；
 
