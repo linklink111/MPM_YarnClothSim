@@ -18,7 +18,7 @@ MPM yarn based cloth simulation
 
 创建yarn based cloth：
 
-- 针织：创建物体->细分->create Stitch for Obj (如果面的index是按顺序的，可以在物体上直接转换，如果面的index是乱序的，可以在编辑模式下转换每一个面)（这里是根据Yuksel等人的Stitch Mesh实现的）
+- 针织：创建物体->细分->create Stitch for Obj (如果面的index是按顺序的，可以在物体上直接转换，如果面的index是乱序的，可以在编辑模式下转换每一个面)（这里是根据Yuksel等人的Stitch Mesh实现的）(文件中的Plane.001是针织布料的一个例子，钉固了右边一列的顶点，并且钉固顶点在模拟的过程中缓慢向右移动)
 - 编织：创建物体->细分->wove face
 - 导入：交互界面的load BCC file 按钮。
 
@@ -28,5 +28,5 @@ MPM yarn based cloth simulation
   - work_dir2/frames
 - 钉固顶点：编辑曲线并选中要钉固的顶点(如果没有钉固顶点，需要创建一个浮空的顶点并选中它，因为传递给 taichi 类的张量不能为空（原谅我暂时没有找到更好的解决办法orz），注意不要选中所有的顶点，这样就不能动了。)
 - 球体/地面碰撞：在GridCollision中修改球体的位置和半径或地面高度
-- 运行：切换到UnitTest_AEPMEM,点击运行
+- 运行：点击要模拟的物体（例如Plane.001），切换到UnitTest_AEPMEM,点击运行
 - 运行完成后导入动画：点击 load Animation 按钮 (动画在运行的过程中会写到 work_dir2/frames 下，点击此按钮后保存)
