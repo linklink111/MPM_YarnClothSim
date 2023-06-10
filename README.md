@@ -1,7 +1,7 @@
 # MPM_YarnClothSim
 MPM yarn based cloth simulation
 
-欢迎来玩 MPM yarn based cloth simulation， 这是基于蒋陈凡夫老师的 Anisotropic elastoplasicity for cloth, knit and hair frictional contact 写的 模拟 yarn based cloth 的程序（目前只能模拟yarn和yarn based cloth，不能模拟沙子或三角网格布料orz），参考了知乎橘子猫大佬的2D版本（https://zhuanlan.zhihu.com/p/414356129）
+欢迎来玩 MPM yarn based cloth simulation， 这是基于蒋陈凡夫老师的 Anisotropic elastoplasicity for cloth, knit and hair frictional contact 写的 模拟 yarn based cloth 的程序（目前只能模拟yarn和yarn based cloth，不能模拟沙子或三角网格布料orz），参考了知乎橘子猫大佬的2D版本（https://zhuanlan.zhihu.com/p/414356129） （把大佬的2D版本改成了3D版本orz）
 由于本人很菜QAQ，程序目前存在如下问题：
 - return mapping好像实现错了，所以在模拟中没有执行这个步骤；
 - 大多数时候布料在一个方向上会无限收缩，知道成为一条线；
