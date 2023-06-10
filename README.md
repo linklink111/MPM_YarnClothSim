@@ -7,13 +7,13 @@ MPM yarn based cloth simulation
 - 大多数时候布料在一个方向上会无限收缩，知道成为一条线；
 - 出现其他奇怪的现象。
 
-如果您能帮助我修改，我将万分感谢！
+如果您能帮助我改进，我将万分感谢！
 
 ## Usage
 
 运行方法：
 
-- 用 Blender2.93 打开 YarnSound.bend；
+- 用 Blender2.93 打开 YarnSound.bend（主要的模拟程序是 UnitTest_AEPMPM.py (由于改文件名会发生错误，所以我没有改QAQ））；
 - 安装 taichi-Blend 插件；
 - 切换到 MyPanel 文本并运行（此时视图中出现交互界面）；
 
